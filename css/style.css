@@ -1,0 +1,523 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 50px;
+  background: rgb(255, 255, 255);
+}
+
+.header .conFluid {
+  margin-top: -8px;
+}
+
+.headerLinks {
+  margin-top: 10px;
+  min-width: 180px;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.headerLinks:hover {
+  background-color: rgb(244, 244, 244);
+}
+
+.firstSection {
+  width: 100%;
+  height: 680px;
+  background: url("../img/background photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstSection .topBox {
+  width: 100%;
+  height: 608px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.firstSection .topBox img {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  min-width: 200px;
+}
+.firstSection .bottomBox {
+  width: 100%;
+  min-width: 200px;
+  min-height: 73px;
+  background: url("../img/Shape.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondPage {
+  min-height: 216px;
+  background-color: rgb(255, 255, 255);
+}
+.secondPage .conFluid {
+  min-height: 216px;
+}
+.secondPage .conFluid .firstText {
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 42.5px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.secondPage .conFluid .secondText {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 16.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.thirdSection {
+  min-height: 300px;
+  background-color: red;
+}
+.thirdSection .conFluid {
+  background-color: black;
+  min-height: 300px;
+}
+.thirdSection .conFluid .row {
+  min-height: 300px;
+}
+.thirdSection .conFluid .row .leftBox {
+  min-height: 300px;
+  background-color: #81B3D2;
+}
+.thirdSection .conFluid .row .leftBox .title {
+  color: white;
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 47px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.thirdSection .conFluid .row .leftBox .num {
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+}
+.thirdSection .conFluid .row .leftBox .contentText {
+  color: white;
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-bottom: 54px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.thirdSection .conFluid .row .rigthBox {
+  min-height: 255px;
+  background-image: url("../img/img2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourthsPage {
+  min-height: 300px;
+}
+.fourthsPage .row {
+  min-height: 300px;
+}
+.fourthsPage .row .col-sm-4 {
+  border: 1px solid #f1f1f1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fourthsPage .row .col-sm-4 .imgBox {
+  margin-top: 30px;
+  height: 160px;
+}
+.fourthsPage .row .col-sm-4 .imgBox img {
+  width: 90px;
+}
+.fourthsPage .row .col-sm-4 .title {
+  color: rgb(0, 0, 0);
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: -30px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.fourthsPage .row .col-sm-4 .firstText {
+  color: rgb(0, 0, 0);
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -25px;
+  margin-bottom: 70px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.fourthsPage .row .col-sm-4:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.fifthSection {
+  min-height: 300px;
+  background-color: red;
+}
+.fifthSection .conFluid {
+  background-color: #fff;
+  min-height: 300px;
+}
+.fifthSection .row {
+  min-height: 300px;
+}
+.fifthSection .row .leftBox {
+  min-height: 255px;
+  background-image: url("../img/img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifthSection .row .rigthBox {
+  min-height: 300px;
+  background: #81B3D2;
+}
+.fifthSection .row .rigthBox .title {
+  color: white;
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 47px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.fifthSection .row .rigthBox .num {
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+}
+.fifthSection .row .rigthBox .contentText {
+  color: rgb(255, 255, 255);
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-bottom: 54px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.sixthPage {
+  min-height: 300px;
+  background: #EEEEEE;
+}
+.sixthPage .row {
+  min-height: 300px;
+}
+.sixthPage .row .col-sm-4 {
+  border: 1px solid #dfdfdf;
+}
+.sixthPage .row .col-sm-4 .title {
+  color: rgb(0, 0, 0);
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 30px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.sixthPage .row .col-sm-4 h6 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+}
+.sixthPage .row .col-sm-4 .firstText {
+  color: rgb(0, 0, 0);
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.seventhSection {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.seventhSection .title {
+  min-height: 80px;
+  font-weight: 700;
+  font-size: 21px;
+  padding-top: 62.5px;
+  font-family: "PT Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.seventhSection .underTitleTex {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 26px;
+  margin-top: 16.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+.seventhSection .mapBox {
+  width: 100%;
+  height: 474px;
+  margin-top: 110px;
+  background: url("../img/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.seventhSection .mapBox .containerr {
+  margin-top: -165px;
+  width: 438px;
+  min-width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 451px;
+  background-color: rgb(255, 255, 255);
+}
+.seventhSection .mapBox .containerr .topBox {
+  width: 100%;
+  height: 86px;
+  background-color: #766357;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.seventhSection .mapBox .containerr .bottomBox {
+  width: 100%;
+  min-height: 335px;
+  background-color: rgb(255, 255, 255);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.seventhSection .mapBox .containerr .bottomBox .container {
+  max-width: 100%;
+  min-height: 320px;
+  background-color: rgb(255, 255, 255);
+}
+.seventhSection .mapBox .containerr .bottomBox .container .lableText {
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+  padding-right: 10px;
+}
+.seventhSection .mapBox .containerr .bottomBox .container input {
+  padding: 5px;
+  width: 230px;
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 38px;
+  border: 1px solid white;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+.seventhSection .mapBox .containerr button {
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  background-color: #81B3D2;
+  border: 1px solid #81B3D2;
+  padding-top: 7px;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+}
+footer .row {
+  width: 100%;
+  height: 120px;
+}
+footer .row .col-sm-4 {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  gap: 10px;
+}
